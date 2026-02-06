@@ -41,7 +41,7 @@ def render():
         uv sync
 
         # Download spaCy model
-        uv run python -m spacy download en_core_web_sm
+        uv run python -m spacy download en_core_web_lg
 
         # Run app
         uv run streamlit run app.py
